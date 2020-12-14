@@ -33,7 +33,10 @@
 		"inlineSources": false,
 		"isolatedModules": false,
 		"lib": [
-			"esnext"
+			"esnext",
+			"dom",
+			"dom.iterable",
+			"scripthost"
 		],
 		"listFiles": false,
 		"listEmittedFiles": false,
@@ -62,7 +65,11 @@
 		"suppressImplicitAnyIndexErrors": true,
 		"traceResolution": false,
 		"typeRoots": [],
-		"types": [],
+		"types": [
+			"@dcloudio/types",
+			"miniprogram-api-typings",
+			"mini-types"
+		],
 		"watch": false
 	}
 }

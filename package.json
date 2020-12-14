@@ -39,8 +39,12 @@
 		}
 	],
 	"license": "MIT",
-	"dependencies": {},
+	"dependencies": {
+		"mini-types": "^0.1.4",
+		"miniprogram-api-typings": "^3.2.0"
+	},
 	"devDependencies": {
+		"@dcloudio/types": "^2.0.19",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"del-cli": "latest",
